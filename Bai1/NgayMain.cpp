@@ -9,7 +9,7 @@ int main(){
             cout<<"2. In ra ngay thang nam vua nhap "<<endl;
             cout<<"3. Xem ngay thang nam tiep theo "<<endl;
             cout<<"4. Toi muon doi ngay khac "<<endl;
-            cout<<"Lua chon cua ban la: "<<endl;
+            cout<<"Lua chon cua ban la "<<endl;
             int chon; cin>>chon;
             if(chon==1){
                 cout<<"Dang thoat chuong trinh...."<<endl;
