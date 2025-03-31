@@ -35,7 +35,7 @@ SoPhuc SoPhuc::Thuong(){
     SoPhuc sp2, thuong;
     cout<<"Nhap vao so phuc thu hai: "<<endl;
     sp2.Nhap();
-    double mau=sp2.iThuc*sp2.iThuc+sp2.iAo+sp2.iAo;
+    double mau=sp2.iThuc*sp2.iThuc+sp2.iAo*sp2.iAo;
     if(mau==0){
         cout<<"Loi! Khong the chia het cho so phuc (0, 0)!"<<endl;
         thuong.iThuc=0; thuong.iAo=0;
