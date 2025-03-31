@@ -4,7 +4,7 @@ inline ll lcm(ll a, ll b){return a/gcd(a, b)*b;}
 void PhanSo::Nhap(){
     cout<<"Nhap tu so: "; cin>>iTu;
     cout<<"Nhap mau so: "; cin>>iMau;
-    while(iMau<=0){
+    while(iMau==0){
         cout<<"Mau so khong hop le! Moi ban nhap lai"; cin>>iMau;
     }
 }
